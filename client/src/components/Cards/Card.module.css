@@ -1,0 +1,59 @@
+
+.Card {
+    background-image: linear-gradient(180deg, rgba(255, 89, 0, 0.631), rgba(255, 217, 0, 0.774));
+    border: 2px solid gold;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Tapestry', cursive;
+    text-shadow: 2px 2px 4px #000000;
+    transition: 2s;
+}
+
+.attack:hover{
+    transition: 2s;
+    color: rgb(255, 0, 0);
+}
+
+.Card:hover {
+    background-color: rgba(0, 136, 255, 0.609);
+    transition: 1s;
+    box-shadow: 5px 5px 30px black;
+    border: silver solid;
+}
+
+.Text {
+    color: rgb(172, 1, 1);
+    text-decoration: solid;
+}
+
+.Text2 {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.type {
+    font-size: 15px;
+}
+
+.attack {
+    color: gold;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.defense {
+    color: yellow;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.Informacion {
+    display: flex;
+    justify-content: space-around;
+}
+  
+.button {
+    height: 25px;
+    margin: 4px;
+}

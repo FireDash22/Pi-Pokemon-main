@@ -1,0 +1,23 @@
+.error {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    background-color: white;
+}
+
+.home {
+    cursor: pointer;
+    background-color: grey;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.home:hover {
+    transition: 0.5s;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+}

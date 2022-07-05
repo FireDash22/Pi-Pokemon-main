@@ -1,0 +1,25 @@
+.paginado {
+    align-items: center;
+    display: inline-flex;
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+    }
+
+.btn {
+    background-color: grey;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-family: 'Tapestry', cursive;
+}
+
+.btn:focus {
+  font-family: 'Tapestry', cursive;
+  color: darkred;
+  background: yellow;
+}
+

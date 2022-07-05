@@ -1,0 +1,10 @@
+.filters {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.FilterAD {
+    cursor: pointer;
+    transition: 0.5s;
+}
+

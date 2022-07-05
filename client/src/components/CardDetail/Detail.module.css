@@ -1,0 +1,61 @@
+.text {
+    color: white;
+    font-family: 'Macondo', cursive;
+}
+
+.home {
+    color: white;
+    text-decoration: none;
+    border: 2px solid;
+    background: rgba(112, 128, 144, 0.532);
+    display: flex;
+    justify-content: center;
+    padding: 10px;  
+    transition: 0,9s;
+}
+
+.img{
+    margin-top: 20px;
+    margin-left: 300px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #E82900;
+    border-radius: 25px;
+    box-shadow: 7px 13px 37px #000;
+    border: 5px solid silver;
+    transition: 2s;
+}
+
+.NameID{
+    border: 1px solid;
+    margin-left: 10px;
+    padding: 2px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: brown;
+}
+
+.Details{
+    margin-right: 290px;
+    float: right;
+    background: #E82900;
+    margin-top: 21px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.Detail {
+    background-color: #d5790094;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.sub_title {
+    background-color: rgba(255, 255, 255, 0.56);
+}

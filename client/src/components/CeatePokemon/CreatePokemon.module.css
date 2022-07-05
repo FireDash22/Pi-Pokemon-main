@@ -1,0 +1,91 @@
+.form{
+    box-sizing: border-box;
+    width: 400px;
+    background: #24303c83;
+    padding: 30px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+      padding-bottom: 10px;
+      padding-top: 1px;
+      background: #80808096;
+      border-bottom-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+      border-bottom: 3px solid rgba(0, 0, 0, 0.454);
+      box-shadow: 7px 13px 20px #000;
+  }
+  
+  .title_tex {
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding-right: 80px;
+    color: orange;
+  }
+  
+  .volver {
+      float: left;
+      padding-left: 19px;
+      text-decoration: none;
+      color: white;
+      cursor: pointer;
+      transition: 0.4s;
+  }
+  
+  .volver:hover {
+      color: gold;
+  }
+  
+  .input {
+    width: 100%;
+    background: #24303c84;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .bottom {
+    width: 100%;
+    background: #1746ae98;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .name {
+      font-size: 15px;
+  }
+  
+  .types {
+      list-style: none;
+      font-size: 15px;
+      padding: 5px;
+  }
+  
+  .list {
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  
+  .button {
+      background-color: red;
+      border-radius: 15px;
+      cursor: pointer;
+  }

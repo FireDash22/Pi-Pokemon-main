@@ -1,0 +1,75 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+   }
+  :before, *:after {
+    box-sizing: inherit;
+  }
+.create {
+    padding: 10px;
+    border: 1px solid white;
+    margin: 5px;
+    background-color: rgba(105, 105, 105, 0.479);
+}
+
+.logo {
+    float: left;
+    margin-top: 0px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    justify-content: space-evenly;
+    row-gap: 5px;
+}
+
+.CreatePokemon {
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-family: 'Macondo', cursive;
+    border: 2px solid;
+    padding: 8px;
+    background: #0fff005c;
+    float: right;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+.CreatePokemon:hover {
+    color: gold;
+}
+
+.AsendeteDesendente{
+    color: gold;
+    background-color: darkblue;
+    font-family: 'Macondo', cursive;
+}
+
+.Text2 {
+    text-decoration: none;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.button {
+    margin: 6px;
+    height: 25px;
+    cursor: pointer;
+    background-color: bisque;
+    font-family: 'Macondo', cursive;
+}
+
+.next {
+    margin: 6px;
+    height: 25px; 
+    cursor: pointer;
+    background-color: bisque;
+    font-family: 'Macondo', cursive;
+}

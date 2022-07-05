@@ -1,0 +1,25 @@
+.buscador {
+    margin: 5px;
+    border: 2px transparent;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    font-family: 'Macondo', cursive;
+}
+
+.buton {
+    color: black;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    font-family: 'Macondo', cursive;
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+.buton:hover {
+    color: darkgreen;
+    border: 2px solid darkgreen;
+    border-radius: 5px;
+    font-family: 'Macondo', cursive;
+    background-color: gold;
+    transition: 0.5s;
+}
